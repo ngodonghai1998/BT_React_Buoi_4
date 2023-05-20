@@ -48,7 +48,7 @@ export default class ReactForm extends Component {
 
         // Nhớ setState lại, không là sẽ không render.
         this.setState({
-            arrSinhVien: this.setState.arrSinhVien,
+            arrSinhVien: this.state.arrSinhVien,
         })
     }
 
